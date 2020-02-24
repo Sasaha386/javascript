@@ -1,0 +1,22 @@
+{
+  "name": "podcas-app",
+  "version": "1.0.0",
+  "description": "sdfsd",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "gfsssf <valerii.melnik2017@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}
